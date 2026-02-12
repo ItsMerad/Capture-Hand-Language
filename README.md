@@ -1,24 +1,21 @@
-# Capture Hand Language
+# 🖐️ Capture Hand Language
 
-Kamera uzerinden el isareti verisi toplama ve siniflandirma icin basit bir proje.
+Bu proje, bilgisayar kamerası üzerinden el işaretlerini algılayan, bu verileri toplayan ve eğitilmiş bir model yardımıyla sınıflandıran hafif bir **Bilgisayarlı Görü (Computer Vision)** uygulamasıdır.
 
-## Ozellikler
-- Web kameradan el algilama (CVZone + OpenCV)
-- Kareleri sabit boyuta getirip kaydetme
-- Egitilmis model ile siniflandirma
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-## Gereksinimler
-- Python 3.8+
-- Web kamera
-- Kutuphaneler:
-  - opencv-python
-  - cvzone
-  - numpy
+---
 
-Kurulum:
-```bash
-pip install opencv-python cvzone numpy
-```
+## 🌟 Özellikler
+
+- **El Algılama:** `CVZone` ve `OpenCV` kullanarak yüksek doğrulukla el takibi.
+- **Veri Toplama:** Kareleri otomatik olarak kırpıp, sabit boyuta getirerek veri seti oluşturma.
+- **Canlı Sınıflandırma:** Eğitilmiş Keras modeliyle anlık işaret dili tahmini.
+- **Ölçeklenebilir:** Kolayca yeni sınıflar (el işaretleri) eklenebilir.
+
+---
 
 ## Kurulum Sonrası
 Bu repoyu klonladiktan sonra eksiksiz calisma icin asagidaki klasorleri olusturmaniz gerekir:
