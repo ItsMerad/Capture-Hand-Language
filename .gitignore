@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Large artifacts
+Capture Hand Language/data/
+Capture Hand Language/model/
